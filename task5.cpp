@@ -50,12 +50,12 @@ void retBook() {
 int main() {
     while (true) {
         cout << "1.Add\n2.Search\n3.Checkout\n4.Return\n5.Exit\n\nChoice: ";
-        string chn; getline(cin, chn);
-        if (chn == "1") addBook();
-        else if (chn == "2") searchBook();
-        else if (chn == "3") checkout();
-        else if (chn == "4") retBook();
-        else if (chn == "5") break;
+        string op; getline(cin, op);
+        if (op == "1") addBook();
+        else if (op == "2") searchBook();
+        else if (op == "3") checkout();
+        else if (op == "4") retBook();
+        else if (op == "5") break;
     }
     return 0;
 }
